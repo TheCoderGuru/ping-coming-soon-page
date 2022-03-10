@@ -1,0 +1,130 @@
+/* ! Css reusable classes to reset all the browser styling to default */
+
+:root {
+  --primary-blue: hsl(223, 87%, 63%);
+  -secondary-pale-blue: hsl(223, 100%, 88%);
+  --secondary-light-red: hsl(354, 100%, 66%);
+  --neutral-gray: hsl(0, 0%, 59%);
+  --neutral-very-dark-blue: hsl(209, 33%, 12%);
+  --fs-base: calc(20px / 16px);
+  --font-base: 'Libre Franklin', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+  font: inherit;
+}
+
+.container{
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__image{
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+}
+
+.container__title{
+    font-family: var(--font-base);
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--neutral-gray);
+}
+
+.container__subtitle{
+    font-family: var(--font-base);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 300;
+}
+
+.container__button{
+    background: var(--primary-blue);
+    padding: 1rem;
+    font-family: var(--font-base);
+    color: white;
+    margin: 0 auto;
+    width: 9rem;
+    text-align: center;
+    border-radius: 2rem;
+    display: block;
+    height: auto;
+}
+
+.container__email{
+    margin: 2rem auto;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding: 1rem;
+    border: 1px solid var(--neutral-gray);
+    opacity: .4;
+    border-radius: 2rem;
+}
+
+.container__email::placeholder{
+    font-family: var(--font-base);
+    width: 24rem;
+    height: auto;
+}
+
+.container__illustration{
+    display: block;
+    height: 25rem;
+    width: auto;
+    margin: 4rem auto;
+}   
+
+span{
+    font-weight: bold;
+    color: var(--neutral-very-dark-blue);
+}
+
+footer{
+    font-family: var(--font-base);
+    text-align: center;
+    color: var(--neutral-gray);
+}
+
+.social-icons i{
+    margin-right: 2rem;
+    padding: .5rem;
+    color: var(--primary-blue);
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+/*?  Media queries for responsiveness across devices */
+
+@media only screen and ( max-width: 600px ){
+    .container__illustration{
+        height: 15rem;
+        width: auto;
+    }
+
+    .container__title{
+        font-size: 1.5rem;
+    }
+
+    .container__subtitle{
+        font-size: .9rem;
+        font-weight: 500;
+    }
+
+    .container__email{
+        border: 1px solid var(--primary-blue);
+    }
+
+    .container__email::placeholder{
+        color: var(--primary-blue);
+    }
+}
