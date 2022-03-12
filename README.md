@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./ping-coming-soon.png)
+![](./ping-coming-soon.PNG)
 
 
 ### Links
