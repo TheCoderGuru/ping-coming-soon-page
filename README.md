@@ -39,7 +39,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Check out the code](https://github.com/TheCoderGuru/ping-coming-soon-page/)
-- Live Site URL: [View it Live](http://ping-coming-soon-page-kappa-red.vercel.app/)
+- Live Site URL: [Visit the live site](http://ping-coming-soon-page-kappa-red.vercel.app/)
 
 ## My process
 
@@ -52,7 +52,7 @@ Users should be able to:
 
 ### What I learned
 
-This is my first attempt of this challenge and this reiterated the following css properties
+This is my first attempt of this challenge and this reiterated the following css properties.
 
 
 - justify-content
@@ -63,6 +63,8 @@ This is my first attempt of this challenge and this reiterated the following css
 
 - flex
 
+
+I have learnt how css flexbox works 
 
 Here is a snippet of how it was used in this challenge
 
